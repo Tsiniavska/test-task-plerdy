@@ -36,6 +36,10 @@ const popupForm = () => {
 
     const form = new FormData(e.target);
 
+    // Clear previous errors
+    removeError('js-name-error', 'input[name="name"]');
+    removeError('js-phone-error', 'input[name="phone"]');
+
     // Name
     const firstName = form.get('name');
     const nameInput = DOMForm.querySelector('input[name="name"]');
@@ -52,7 +56,6 @@ const popupForm = () => {
       );
       return;
     }
-    removeError('js-name-error', 'input[name="name"]');
 
     // Phone Number
     const phoneNumber = form.get('phone');
@@ -66,7 +69,6 @@ const popupForm = () => {
       );
       return;
     }
-    removeError('js-phone-error', 'input[name="phone"]');
 
     // Clear the form
     DOMForm.reset();
@@ -74,6 +76,16 @@ const popupForm = () => {
     // Display a message about the successful sending of data
     alert('Data successfully sent!');
   });
+
+  // Clear errors when user interacts with the input fields
+  DOMForm.querySelectorAll('input[name="name"], input[name="phone"]').forEach(
+    (input) => {
+      input.addEventListener('input', () => {
+        removeError('js-name-error', 'input[name="name"]');
+        removeError('js-phone-error', 'input[name="phone"]');
+      });
+    }
+  );
 };
 
 export default popupForm;
