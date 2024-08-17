@@ -50,7 +50,6 @@ input[type='number']::-webkit-outer-spin-button {
 .select {
   min-height: 37px;
   background: none;
-  appearance: none;
 }
 
 .wrapper {
