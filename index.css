@@ -802,12 +802,12 @@
   border-radius: 0 8px 8px 0;
   min-height: 37px;
   padding: 4px;
-  width: 266px;
+  width: 250px;
 }
 
 @media (max-width: 1024px) {
   .form-input-number {
-    width: 170px;
+    width: 160px;
   }
 }
 

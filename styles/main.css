@@ -47,6 +47,12 @@ input[type='number']::-webkit-outer-spin-button {
   margin: 0;
 }
 
+.select {
+  min-height: 37px;
+  background: none;
+  appearance: none;
+}
+
 .wrapper {
   max-width: 1256px;
   margin: 0 auto;
