@@ -148,7 +148,7 @@
   white-space: nowrap;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .button {
     font-size: 12px;
   }
@@ -209,7 +209,7 @@
   margin-top: calc(var(--h-header) + 40px);
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .banner {
     display: flex;
     flex-direction: column;
@@ -228,7 +228,7 @@
   padding-bottom: 20px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .blocks {
     gap: 20px;
     padding-top: 20px;
@@ -249,7 +249,7 @@
   letter-spacing: 0.02em;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .information-title {
     line-height: 120%;
     font-size: 23px;
@@ -269,7 +269,7 @@
   color: var(--c-dark-blue);
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .text-main,
   .brands-title {
     font-size: 12px;
@@ -282,20 +282,20 @@
   font-size: 14px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .text-extra {
     font-size: 12px;
     line-height: normal;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .information-button {
     margin: 0 auto;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .brands {
     margin: 0 auto;
   }
@@ -308,7 +308,7 @@
   margin-top: 6px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .brands-logo {
     display: grid;
     grid-template-columns: repeat(6, 1fr); /* Три колонки */
@@ -346,7 +346,7 @@
   position: relative;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .block-main-photo {
     max-width: 230px;
   }
@@ -364,7 +364,7 @@
   max-width: 190px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .chart {
     max-width: 117px;
   }
@@ -375,7 +375,7 @@
   left: -70px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .chart-1 {
     top: -25px;
     left: -30px;
@@ -387,7 +387,7 @@
   right: -60px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .chart-2 {
     top: 35px;
     right: -30px;
@@ -399,7 +399,7 @@
   left: -115px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .chart-3 {
     bottom: 20px;
     left: -40px;
@@ -418,7 +418,7 @@
   margin-bottom: 40px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .content {
     margin-top: 40px;
   }
@@ -434,7 +434,7 @@
   font-size: 36px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .content-title {
     font-size: 20px;
     line-height: 130%;
@@ -467,7 +467,7 @@
   top: 20px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .button-swiper {
     display: none;
   }
@@ -538,7 +538,7 @@
   letter-spacing: 0.25%;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .slide-text {
     font-size: 12px;
     line-height: 150%;
@@ -573,7 +573,7 @@
   display: none;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .swiper-pagination {
     display: block;
     color: var(--c-violet);
@@ -590,7 +590,7 @@
   align-items: center;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .block {
     display: flex;
     flex-direction: column;
@@ -606,14 +606,14 @@
   max-width: 440px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .block-text {
     font-size: 12px;
     text-align: center;
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .button--block {
     font-size: 14px;
   }
@@ -633,7 +633,7 @@
   z-index: 100;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .popup {
     width: 300px;
   }
@@ -687,7 +687,7 @@
   border-bottom-left-radius: 15px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .popup-image {
     display: none;
   }
@@ -706,7 +706,7 @@
   padding-right: 32px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .popup-block-content {
     padding-left: 10px;
     padding-right: 24px;
@@ -723,7 +723,7 @@
   margin: 0 auto;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .popup-title {
     font-size: 18px;
     max-width: 230px;
@@ -738,7 +738,7 @@
   margin-top: 24px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .popup-text {
     font-size: 12px;
     margin-top: 18px;
@@ -761,7 +761,7 @@
   font-weight: 600;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .label-title {
     font-size: 9px;
   }
@@ -778,7 +778,7 @@
   padding: 4px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .form-input {
     width: 260px;
   }
@@ -805,7 +805,7 @@
   width: 266px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .form-input-number {
     width: 180px;
   }
@@ -818,7 +818,7 @@
   margin-top: 34px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .form-buttons {
     gap: 8px;
   }
@@ -831,7 +831,7 @@
   font-size: 13px;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .laber-radio {
     font-size: 9px;
   }
@@ -861,7 +861,7 @@
   justify-content: center;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 1024px) {
   .form-subtitle {
     font-size: 9px;
   }
